@@ -222,10 +222,16 @@
 
       <!--Блок Подпишитесь на рассылку-->
       <div class="subscribe">
-        <b class="signup-title">Подпишитесь на рассылку</b>
-        <form class="subscribe-form" method="post" action="URL">
-          <input type="text" placeholder="E-mail">
-          <input  class="btn-primary" type="submit" value="Подписаться">
+        <form class="subscribe-form" method="" action="№">
+          <b class="subscribe-title">Подпишитесь на рассылку</b>
+          <div class="subscribe-form-wrapper">
+            <input type="email" name="user-email" id="subscribe-email" class="subscribe-email" placeholder="E-mail">
+          <button type="submit" class="btn-primary ">
+            <span>Подписаться</span>
+          <svg class="icon icon-send" width="24px" height="24px">
+            <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+          </svg></button>
+          </div>
         </form>
       </div>
       </div>

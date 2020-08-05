@@ -94,6 +94,9 @@ b {
     font-weight: 700;
 }
 
+input:focus {
+    outline: none;
+}
 
 .container {
     width: 1200px;
@@ -665,6 +668,7 @@ b {
     justify-content: center;
 }
 
+
 .join-list .social-item {
     width: 44px;
     height: 44px;
@@ -678,13 +682,50 @@ b {
 .join-list .icon {
     fill: var(--dark-section-text-color);
 }
+.subscribe-form-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
 
-.subscribe-form .btn-primary {
-    margin-left: 12px;
+.subscribe {
+    max-width: 570px;
+    flex-grow: 2;
+}
+
+
+.subscribe-form-wrapper .btn-primary {
+    display: flex;
+}
+
+.subscribe-email {
+    flex-grow: 2;
+    margin-right: 12px;
+    padding-left: 16px;
+
+    background-color: transparent;
+    color: var(--dark-section-text-color);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+
+
+.icon-send {
+    margin-left: 10px;
+    fill: #F5F4FA;
+
 }
 
 
 /* КОНЕЦ СТИЛЕЙ СТРАНИЦЫ СТУДИЯ */
+
+
+
+
+
 
 /* СТИЛИ СТРАНИЦЫ ПОРТФОЛИО */
 
@@ -876,3 +917,4 @@ b {
     font-size: 20px;
     line-height: 1.15;
 }
+
